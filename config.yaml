@@ -1,0 +1,12 @@
+# System configuration
+system:
+  port: 8000
+
+#log configuration
+log:
+  level: "debug"          # 日志级别 值：
+  format: "console"       # 日志输出
+  dir: "log"              # 存放日志目录
+  max_retention_days: 30  # 日志保留最长时间
+  show_line: true         # 显示打印日志的行数
+  console_output: true    # 控制台输出
